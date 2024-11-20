@@ -1,5 +1,5 @@
 {
-  "name": "@intmax/intmax2-web-components",
+  "name": "intmax2-web-components",
   "private": true,
   "version": "0.0.1",
   "type": "module",
