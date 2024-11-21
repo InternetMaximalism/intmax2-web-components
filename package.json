@@ -1,10 +1,10 @@
 {
   "name": "intmax2-web-components",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "main": "dist/index.es.js",
-  "types": "dist/index.es.d.ts",
+  "main": "./dist/index.es.js",
+  "types": "./dist/index.es.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
