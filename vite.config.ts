@@ -11,10 +11,13 @@ export default defineConfig({
       entry: "./src/lib.ts",
       name: "intmax2-web-components",
       fileName: (format) => `index.${format}.js`,
-      formats: ["es"]
+      formats: ["es"],
     },
     rollupOptions: {
       external: [...Object.keys(peerDependencies), 'react/jsx-runtime'],
+      output: {
+        interop: "auto",
+      },
     },
     sourcemap: true,
     emptyOutDir: true
